@@ -8,6 +8,7 @@
 #include <math.h>
 #include <string.h>
 
+
 #include "colorUtils.h"
 
 #define DELTA 0.0001
