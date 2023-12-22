@@ -26,3 +26,9 @@ int max(int x, int y, int z);
  *
  */
 int toGrayScaleAverage(int r, int g, int b);
+
+/**
+ * Returns the min value among the three
+ * given integer values.
+ */
+int min(int x, int y, int z);
