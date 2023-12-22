@@ -45,3 +45,8 @@ else {
 return (max + min) / 2;
 
 }
+
+int toGrayScaleLuminosity (int r, int g, int b){
+  int filter = (0.21 * r + 0.72 * g + 0.07 * b);
+  return round(filter);
+}
